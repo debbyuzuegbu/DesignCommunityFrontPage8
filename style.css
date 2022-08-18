@@ -1,0 +1,28 @@
+body {
+    background: url(./Backdrop.png);
+    height: 90vh;
+    width: 100vh;
+    position: relative;
+}
+
+.image {
+    background-color: white;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    margin-top: 70px;
+    text-align: center;
+}
+label {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+input {
+    padding: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 80vh;
+    border-radius: 50px;
+    margin: 4px;
+}
